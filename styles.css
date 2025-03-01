@@ -1,0 +1,107 @@
+
+.body-class {
+    background-color: beige;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+.header-class {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+   .nav-class {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: normal;
+  }
+  
+  .nav-class a:hover, .nav-class a:focus {
+    font-weight: bold;
+  }
+  
+  .title-class {
+    color: orangered;
+  }
+  
+  .section-title-class {
+    color: blue;
+  }
+  
+  .text-class {
+    color: black;
+    line-height: 1.6;
+  }
+  
+  .image-class {
+    border: 5px solid maroon;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .form-class {
+    background: darkgray;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .input-class {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+  }
+  
+  .button-class {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-class:hover {
+    background-color: blue;
+  }
+  
+  .footer-class {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  img {
+    alt: "Alternative text";
+  }
+
+  @media (max-width: 768px) {
+    .nav-class {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-class a {
+      display: block;
+      padding: 10px;
+    }
+  }
+  
